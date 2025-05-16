@@ -36,7 +36,7 @@
       display:inline-table; /* Elemen bisa berdampingan, tapi masih bisa diberi ukuran */
       width: 200px;
       height: 50px;
-      background-color: rgb(0, 191, 255);
+      background-color: rgb(247, 0, 255);
       margin: 1px;
     }
 
@@ -44,6 +44,7 @@
     .flex-container {
       display: flex; /* Mengaktifkan Flexbox */
       gap: 10px; /* Jarak antar item */
+      grid-template-columns: repeat(4);
       justify-content: center; /* Rata tengah horizontal */
       background-color: #eee;
       padding: 10px;
@@ -174,6 +175,7 @@
     <div class="flex-item">Flex 1</div>
     <div class="flex-item">Flex 2</div>
     <div class="flex-item">Flex 3</div>
+    <div class="flex-item">Flex 4</div>
   </div>
 
   <!-- CSS GRID -->
